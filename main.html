@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daegu University Map</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrlw6WW1Qmwmf05yglAbvlbbPGc4lNbkg&callback=initialize" ></script>
+
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<script>
+
+	function board_search_enter(form) {
+                var keycode = window.event.keyCode;
+                if (keycode == 13)
+                    $("#search_btn").click();
+            }
+
+</script>	
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="지도검색.html">
+    <h4 class="logo"><a href="./main.html"><img src="http://www.daegu.ac.kr/resources/images/site/layout/header_logo.gif"/></a></h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li> <a href="./mapview.html">MAP VIEW</a></li> 
+		<li> <a href="./goto.html">GO TO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header">DAEGU UNIVERSITY <span class="light">MAP</span></h2>
+    <p class="tagline">Lecture room map website</p>
+  </section>
+  <footer>
+    <article class="footer_column">
+	
+		<form class="form-inline" action=searchre.php method="post">
+
+       <input type="text" id="p" class="form-control" name="wanted" placeholder="ex)공7714 or 김창훈">
+		<input type="submit" class="btn btn-danger" value="검색"/>
+
+	</form>
+
+</article>
+    <article class="footer_column">
+      <blockquote>
+        <p><em>We made a classroom search map for all students at Daegu University. Currently, only the college classroom search service is available, but we plan to add it gradually in the future. Please look forward to it. </em></p>
+      </blockquote>
+      <blockquote>
+        <p><em>University alumni in Daegu University classrooms Investigare Tabulas omnibus. Sed iam non quaero ut classrooms Universitatis praebet ministerium, erit permanere, paulatim addere ad futurum. Placere frui. </em></p>
+      </blockquote>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact" src="searchre.php">
+    <h2 class="hidden">Footer Banner Section </h2>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2019 - <strong>DAEGU UNIVERSITY MAP</strong></div>
+	</div>
+<!-- Main Container Ends -->
+</body>
+</html>

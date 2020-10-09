@@ -1,0 +1,65 @@
+@charset "UTF-8";
+ 
+.classtable
+{
+ clear: both;
+ table-layout: fixed;
+ font-size: 25px;
+ width: 70%;
+ border-collapse: collapse;
+ color: #619C79;
+ background-color: #ffffff;
+ text-align: center;
+ border-top: 1px solid #B3B3B3;
+ border-bottom: 1px solid #B3B3B3;
+ border-left: #B3B3B3;
+ border-right: #B3B3B3; 
+ border-radius: 10px;
+ font-family: 맑은 고딕;
+  overflow: hidden;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+ 
+}
+
+.boardList th, td
+{
+	
+clear: both;
+ table-layout: fixed;
+ font-size: 18px;
+ width: 70%;
+ border-collapse: collapse;
+ color:#000000;
+ background-color: #ffffff;
+ text-align: center;
+ border-top: 2px solid #gray;
+border-bottom: 1px solid #gray;
+ line-height: 1.5;
+font-family : 맑은 고딕;
+
+ 
+}
+
+
+
+/*
+{
+ padding: 0;
+ font-weight:bold;
+ height:30px;
+}
+
+{
+ padding: 5px 0px 0px 0px;
+ font-weight:normal;
+ color:#333;
+ height:21px;
+ border-top:1px solid #ececec;
+}
+*/
+.boardList th.id {border-collapse:collapse;}
+.boardList th.memo {border-collapse:collapse;}

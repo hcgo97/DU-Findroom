@@ -1,0 +1,63 @@
+@charset "UTF-8";
+ * 
+{
+  margin: 0 auto;
+  padding:0;
+}
+
+a
+{
+  text-decoration: none; 
+}
+
+ul li 
+{
+  list-style: none;
+}
+
+#login_box
+{
+  width:500px;
+  height:300px;
+  border:solid 1px gray;
+}
+
+table 
+{
+  margin-top:10px;
+}
+
+.mem a:hover 
+{
+  color:black;
+}
+
+#btn 
+{
+
+  background: white;
+  border:solid 1px white;
+}
+
+.input #submit
+{
+  width:95px;
+  height:55px;
+  background: white;
+  border:solid 1px white;
+}
+
+#reset
+{
+  width:95px;
+  height:55px;
+  background: white;
+  border:solid 1px white;
+}
+
+
+
+.inph 
+{
+  height:25px;
+}
