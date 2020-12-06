@@ -1,2 +1,2 @@
 # Daegu-University-Classroom-Search
-## 2019.09
+2019.09
