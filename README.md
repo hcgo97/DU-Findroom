@@ -1,2 +1,3 @@
-# Daegu-University-Classroom-Search
+# DU-Findroom
+## Daegu-University-Classroom-Search
 2019.09
