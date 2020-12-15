@@ -12,3 +12,7 @@
 
 ### # 단과대학 사이 도보로 걸리는 시간 표시
 
+### # Web Appication 형태로 제작
+    -> Android Studio 사용하여 App으로 제작, 배포
+    
+    
