@@ -1,7 +1,7 @@
 # DU-Findroom
 ## Daegu-University-Classroom-Search
 ## 대구대학교 강의실 위치 검색 웹 어플리케이션
-## database97.dothome.co.kr
+## http://database97.dothome.co.kr
 ## 2019.09
 
 ### # 강의실 검색기능
